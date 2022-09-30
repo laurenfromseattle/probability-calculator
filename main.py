@@ -9,7 +9,7 @@ probability = prob_calculator.experiment(
     expected_balls={"blue": 2,
                     "red": 1},
     num_balls_drawn=4,
-    num_experiments=20)
+    num_experiments=2000)
 print("Probability:", probability)
 
 # Run unit tests automatically
